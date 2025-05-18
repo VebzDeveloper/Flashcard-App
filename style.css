@@ -83,7 +83,7 @@ header {
   justify-content: center;
   align-items: center;
   /* background: #fff; */
-  background: linear-gradient(90deg, #cca2ea, #9cd8f4)
+  background: #cca2ea;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -94,7 +94,6 @@ header {
 
 .flashcard.flip {
   transform: rotateY(180deg);
-  background: linear-gradient(90deg, #cca2ea, #9cd8f4)
 }
 
 .front,
@@ -109,13 +108,11 @@ header {
   padding: 20px;
   border-radius: 12px;
   backface-visibility: hidden;
-  background: linear-gradient(90deg, #cca2ea, #9cd8f4)
 }
 
 .back {
   transform: rotateY(180deg);
-  /* background: #eee; */
-  background: linear-gradient(90deg, #cca2ea, #9cd8f4)
+  background: #9cd8f4;
 }
 
 button {
